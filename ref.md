@@ -28,3 +28,18 @@ Text you can do things to
 Delete two words - `d2w`
 Change inside sentence - `cis`
 Yank inside paragraph - `yip`
+Change to open bracke - `ct<`
+
+## Working with Files
+`vi <file` - open file in vim
+`:w` - write changes to the file
+`:q!` - get out of vim without saving
+`wq` - write changes and quit
+`:saveas ~/some/path/` - save to the path
+`ZZ` - same as `wq`
+
+## Navigating Text
+`/<text>` - searches for string in <text>
+`n` - navigates to the next instance
+`N` - navigates to previous instance
+
